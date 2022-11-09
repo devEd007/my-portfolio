@@ -1,0 +1,170 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/portfolio/Fingerprint_bg.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: -1200px;
+  background-position-y: 0%;
+  background-size: cover;
+}
+
+.navbar {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.navbar-inner {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #31a6d4;
+}
+
+.navbar-nav > li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#navbarNav {
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  align-self: center;
+  margin-left: -10px;
+}
+
+#mylogo {
+  block-size: 30px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: auto;
+}
+
+.imagecenter {
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -20px;
+  border: 5px solid #ffffff6e;
+  /* align-items: center;
+  align-content: center;
+  align-self: center; */
+  display: flex;
+  scale: 75%;
+  mix-blend-mode: luminosity;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  color: #22a4e0;
+}
+
+p {
+  padding-left: 0%;
+  margin: auto;
+  padding-right: 0%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: smaller;
+  color: rgb(255, 255, 255);
+}
+
+#shortwords {
+  margin: auto;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: smaller;
+  color: rgb(255, 255, 255);
+}
+
+.row {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.redes {
+  display: inline-flex;
+  margin: auto;
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+#logogithub {
+  filter: invert(100%);
+  padding-left: 3px;
+}
+
+.carousel-inner {
+  height: 200px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 40vh;
+  overflow: hidden;
+}
+
+.card {
+  /* mix-blend-mode: luminosity; */
+  margin-top: 30px;
+  background: none;
+}
+
+.card-img-top {
+  background: none;
+  background-image: none;
+  background-color: transparent;
+  opacity: 100%;
+  filter: invert(100%);
+}
+
+.card-body {
+  background-color: #000000;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-text {
+  color: rgb(97, 97, 97);
+  padding: 0;
+  text-align: justify;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-size: small;
+  color: rgb(97, 97, 97);
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 20px 0px;
+  background-color: #000000;
+}
+
+footer p {
+  margin-top: 10px;
+}
